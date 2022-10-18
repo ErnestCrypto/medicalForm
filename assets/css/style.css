@@ -150,6 +150,28 @@ padding-left: 1% !important;
 
 /* Toronto */
 
+body{
+    background:#F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Times New Roman ;
+    }
+form{
+    width: 100%;
+    background: #fff;
+} 
+input{
+    width: auto;
+    
+}
+
+
+
+
+
+
+
 
 /* Toronto */
 
