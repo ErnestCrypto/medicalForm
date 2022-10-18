@@ -106,6 +106,40 @@ padding-left: 1% !important;
 width:40%;
 }
 
+
+.e_content_main{
+    margin-top:2%;
+}
+
+.e_content_main p{
+    font-weight: 200;
+}
+
+.e_main_row{
+    padding:0 !important;
+    
+}
+.e_main_col{
+    margin-top:2%;
+}
+
+.e_ac1_input{
+border:none;
+outline: none;
+border-bottom: 2px dotted;
+padding:0 !important;
+margin:0 !important;
+padding-left: 1% !important;
+width:100% ;
+}
+.e_ac1_input:focus{
+border:none;
+outline: none;
+border-bottom: 2px dotted;
+padding:0 !important;
+margin:0 !important;
+padding-left: 1% !important;
+}
 /*Ernest*/
 
 
