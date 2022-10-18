@@ -1,6 +1,19 @@
 /*Ernest*/
+body{
+background:#EEF0F2;
+display: flex;
+align-items: center;
+justify-content: center;
 
+}
 
+.ernest{
+    margin:0 auto;
+    background:white;
+    margin:5%;
+    padding:2%;
+    
+}
 /*Ernest*/
 
 
