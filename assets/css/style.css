@@ -4,7 +4,7 @@ background:#EEF0F2;
 display: flex;
 align-items: center;
 justify-content: center;
-
+font-family:Times New Roman ;
 }
 
 .ernest{
@@ -12,8 +12,49 @@ justify-content: center;
     background:white;
     margin:5%;
     padding:2%;
+    padding-bottom: 10%;
     
 }
+.ernest h3{
+font-weight:900;
+    
+}
+.ernest p{
+font-weight:900;
+font-size: 20px;
+    margin:0;
+}
+
+
+.e_img_logo{
+    width:10%;
+}
+.e_date{
+    padding:0 !important;
+}
+
+.e_date p{
+font-weight: 600;
+font-size: 16px;
+float:left;
+width:5%;
+
+}
+
+.e_date input[type="text"]{
+border:none;
+border-bottom: 1px dotted;
+padding:0 !important;
+margin:0 !important;
+
+}
+
+
+
+
+
+
+
 /*Ernest*/
 
 
