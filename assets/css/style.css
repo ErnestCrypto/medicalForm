@@ -192,7 +192,7 @@ padding-left: 1% !important;
 
 }
 .e_mass input[type="text"]{
-    float:left;
+float:left;
 width:100%;
 }
 .e_mass{
@@ -200,13 +200,13 @@ width:100%;
 }
 
 .e_bp input[type="text"]{
-    
-
 width:70%;
 }
 
-
- }
+.e_yes{
+    width:48.4% !important;
+}
+}
 
 
 
