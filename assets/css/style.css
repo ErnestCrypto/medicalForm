@@ -6,6 +6,8 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 font-family:Times New Roman ;
+font-weight: 500;
+font-size: 18px;
 }
 
 
@@ -245,14 +247,59 @@ margin-left:20% !important;
 }
 
 
-
-
-
-
 /*Ernest*/
 
 
 /*Kelvin*/
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+  }
+input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 0.2rem dotted black; 
+    margin-bottom:2%;  
+      
+}
+input[type="text"]{
+    margin-left: 4%;
+    width: 90%;
+}
+
+.one td{
+    border-bottom: none;
+    border-top: none;
+}
+input:focus{
+    border: none;
+    border-bottom: 0.2rem dotted black;
+    outline: none;   
+      
+}
+.two input{
+    border: none;
+    outline: none;
+}
+.three td{
+    border-bottom: none;
+    
+}
+
+.k_table_2{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+}
+
+
+
+
+
+
 
 /*Kelvin*/
 
