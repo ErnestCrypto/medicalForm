@@ -177,12 +177,12 @@ padding-left: 1% !important;
 
 
 .q38{
-margin:6%;
-margin-left:20%;
+margin:6% !important;
+margin-left:20% !important;
 }
 .q39{
-    margin:6%;
-    margin-left:1%;
+    margin:6% !important;
+    margin-left:1% !important;
 }
 
 
@@ -229,11 +229,12 @@ width:70%;
 }
 
 .q38{
-margin:6%;
-margin-left:20%;
+margin:50% !important;
+margin-left:20% !important;
 }
 
-
+.e_last{
+}
 
 
 
