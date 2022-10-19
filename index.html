@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Form B Revision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>TEST</th>
+                <th>RESULTS/ COMMENTS</th>
+                <th>REFERENCE RANGE</th>
+            </tr>
+        </thead>
+        <div class="one">
+            
+            <tr class="one">
+                <td> <b><u>FBC</u></b> </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr  class="one">
+                <td>Total WBC Count</td>
+                <td><input type="text" name="FBC" id="FBC"></td>
+                <td>2.5-10.0  10^9/L</td>
+            </tr>
+            <tr  class="one">
+                <td>Haemoglobin</td>
+                <td><input type="text" name="haemoglobin" id="haemoglobin"></td>
+                <td>12.0-16.0 g/dl  (m) 13.-18</td>
+            </tr>
+            <tr class="one">
+                <td></td>
+                <td></td>
+                <td>(f)11.6</td>
+            </tr>
+            <tr class="one">
+                <td>MCV</td>
+                <td><input type="text" name="MCV" id="MCV"></td>
+                <td>82-98 &nbsp;&nbsp;  Fl</td>
+            </tr>
+            <tr class="one">
+                <td>MCH</td>
+                <td><input type="text" name="MCH" id="MCH"></td>
+                <td>27-32 &nbsp;&nbsp;  pg</td>
+            </tr>
+            <tr  class="one">
+                <td>MCHC</td>
+                <td><input type="text" name="MCHC" id="MCHC"></td>
+                <td>31.0-36.0 &nbsp;  g/dL</td>
+            </tr>
+        </div>
+
+        <tr class="two">
+            <td>Hb electrophoresis</td>
+            <td><input type="text" name="Hb-electre" id="hb-electre"></td>
+            <td></td>
+        </tr>
+        <tr class="two">
+            <td>G6PD (one –off)</td>
+            <td><input type="text" name="G6PD" id="g6pd"></td>
+            <td>Normal/ value</td>
+        </tr>
+        <tr class="two">
+            <td>Blood Group</td>
+            <td><input type="text" name="G6PD" id="g6pd"></td>
+            <td></td>
+        </tr>
+        <div>
+            <tr class="one">
+                <td>Hepatitis B surface <br> Antigen (HbsAg)</td>
+                <td>
+                    <label for="reactive">Reactive</label>
+                    <input type="radio" id="reactive" name="hep-B surface antigen" value="Reactive">
+                    <label for="non-reactive">Non-reactive</label>
+                    <input type="radio" id="non-reactive" name="hep-B surface antigen" value="Non-reactive">
+                </td>
+                <td>Non-reactive</td>
+            </tr>
+        </div>
+        <div>
+            <tr class="three">
+                <td>Hepatitis B surface <br> antibody  (HbsAb) if <br> vaccinated </td>
+                <td>
+                    <label for="positive">Positive</label>&nbsp;
+                    <input type="radio" id="positive" name="hep-B surface antibody" value="Positive">
+                    <label for="negative">Negative</label>
+                    <input type="radio" id="negative" name="hep-B surface antibody" value="Negative">
+                </td>
+                <td>Positive</td>
+            </tr>
+            
+        </div>
+
+        <tr>
+            <td>HCV</td>
+            <td>
+                <label for="reactive">Reactive</label>
+                <input type="radio" id="reactive" name="HCV" value="Reactive">
+                <label for="non-reactive">Non-reactive</label>
+                <input type="radio" id="non-reactive" name="HCV" value="Non-reactive">
+            </td>
+            <td></td>
+        </tr>
+
+        <div>
+            <tr class="two">
+                <td>Fasting blood sugar </td>
+                <td><input type="text" name="Fasting-blood-sugar" id="Fasting-blood-sugar"></td>
+                <td>3.6-6.4 &nbsp;&nbsp; mmol/L <br>6.1-7.0 mmol/l   Pre DM</td>
+            </tr>
+            
+        </div>
+
+        <div>
+            <tr>
+                <td>Urine re</td>
+                <td>
+                    <label for="normal">All indices within normal range</label>
+                    <input type="radio" id="normal" name="Urine" value="normal"><br>
+                    <label for="abnormal">Abnormality</label>
+                    <input type="radio" id="abnormal" name="Urine" value="abnormal"><br>
+                    <input type="text" name="Urine" id="urine">
+                </td>
+                <td>All indices within normal range</td>
+            </tr>
+        </div>
+
+
+
+        <div>
+            <tr class="one">
+                <td> <b><u>Renal fxn test</u></b> </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="one">
+                <td>Creatinine</td>
+                <td><input type="text" name="Creatinine" id="creatinine"></td>
+                <td>40.0-110.0 &nbsp;&nbsp; µmol/L</td>
+            </tr>
+            <tr class="one">
+                <td>Urea</td>
+                <td><input type="text" name="Urea" id="urea"></td>
+                <td>1.70-6.70 &nbsp;&nbsp;&nbsp;&nbsp; mmol/L</td>
+            </tr>
+            <tr class="one">
+                <td>Na+</td>
+                <td><input type="text" name="Na+" id="na+"></td>
+                <td>135-145 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mmol/L</td>
+            </tr>
+            <tr class="one">
+                <td>K+</td>
+                <td><input type="text" name="K+" id="k+"></td>
+                <td>3.5-5.5	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mmol/L</td>
+            </tr>
+            <tr class="one">
+                <td>C1[</td>
+                <td><input type="text" name="C1" id="c1"></td>
+                <td>97-110 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mmol/L</td>
+            </tr>
+        </div>
+
+        <div>
+            <tr class="three">
+                <td> <b><u>Liver fxn Test </u></b> </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="one">
+                <td>Albumin</td>
+                <td><input type="text" name="Albumin" id="albumin"></td>
+                <td>35.0-52.0 &nbsp;&nbsp;&nbsp;&nbsp; g/L</td>
+            </tr>
+            <tr class="one">
+                <td>ALP</td>
+                <td><input type="text" name="ALP" id="alp"></td>
+                <td>20-220 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; U/L</td>
+            </tr>
+            <tr class="one">
+                <td>ALT(SGPT)</td>
+                <td><input type="text" name="ALT" id="alt"></td>
+                <td>0.01-39.0 &nbsp;&nbsp;&nbsp;&nbsp; U/L</td>
+            </tr>
+            <tr class="one">
+                <td>AST (SGOT)</td>
+                <td><input type="text" name="AST" id="ast"></td>
+                <td>0.0-39.0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; U/L</td>
+            </tr>
+            <tr class="one">
+                <td>Total Bil</td>
+                <td><input type="text" name="Total-Bil" id="total-bil"></td>
+                <td>1.7-21 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; µmol/L</td>
+            </tr>
+            <tr class="one">
+                <td>Gamma GT</td>
+                <td><input type="text" name="Gamma-GT" id="gamma-gt"></td>
+                <td>0.0-38.8 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; U/L</td>
+            </tr>
+            <tr class="one">
+                <td>Total protein</td>
+                <td><input type="text" name="Total-protein" id="total-protein"></td>
+                <td>60.0-82.0 &nbsp;&nbsp;&nbsp;&nbsp; g/L</td>
+            </tr>
+        </div>
+
+
+        <div>
+            <tr class="three">
+                <td> <b><u>Lipid profile  </u></b> </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="one">
+                <td>T Chol</td>
+                <td><input type="text" name="T-Chol" id="t-chol"></td>
+                <td>3.00-5.20 &nbsp;&nbsp;&nbsp;&nbsp; mmol/L</td>
+            </tr>
+            <tr class="one">
+                <td>HDL-C</td>
+                <td><input type="text" name="HDL-C" id="hdl-c"></td>
+                <td>1.03-1.55 &nbsp;&nbsp;&nbsp;&nbsp; mmol/L</td>
+            </tr>
+            <tr class="one">
+                <td>Trig</td>
+                <td><input type="text" name="Trig" id="trig"></td>
+                <td>0.01-1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mmol/L</td>
+            </tr>
+            <tr class="one">
+                <td>LDL-CHOL</td>
+                <td><input type="text" name="LDL-CHOL" id="ldl-chol"></td>
+                <td>1.70-6.70 &nbsp;&nbsp;&nbsp;&nbsp; mmol/L</td>
+            </tr>
+        </div>
+        <tr class="two">
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="two">
+            <td colspan="3">CHEST XRAY COMMENT:&nbsp;&nbsp;<input type="text" name="G6PD" id="g6pd"></td>
+        </tr>
+
+    </table>
+    <br><br>
+
+    
+</body>
+</html>

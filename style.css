@@ -1,0 +1,48 @@
+body{
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Times New Roman ;
+    flex-direction: column;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: dotted black;   
+      
+}
+input[type="text"]{
+    margin-left: 4%;
+    width: 90%;
+}
+
+.one td{
+    border-bottom: none;
+    border-top: none;
+}
+input:focus{
+    border: none;
+    border-bottom: dotted black;
+    outline: none;   
+      
+}
+.two input{
+    border: none;
+    outline: none;
+}
+.three td{
+    border-bottom: none;
+    
+}
+
+.k_table_2{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+}
