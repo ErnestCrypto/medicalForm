@@ -102,7 +102,7 @@ float: left;
     
 border:none;
 outline: none;
-border-bottom: 1px dotted;
+border-bottom: 1px dotted ;
 padding:0 !important;
 margin:0 !important;
 padding-left: 1% !important;
@@ -144,6 +144,75 @@ padding:0 !important;
 margin:0 !important;
 padding-left: 1% !important;
 }
+
+
+.e_date_input{
+    border:none ;
+    outline: none !important;
+    border-bottom: 1px dotted;
+    width: 60%;
+}
+
+.e_date_input:focus{
+    border:none ;
+    outline: none !important;
+    border-bottom: 1px dotted;
+}
+.e_other_input{
+     border:none ;
+    outline: none !important;
+    border-bottom: 1px dotted;
+}
+.e_other_input:focus{
+     border:none ;
+    outline: none !important;
+    border-bottom: 1px dotted;
+}
+
+
+ @media screen and (max-width: 420px) {
+    .col-sm-7{
+        width: 100% !important;
+    }
+
+
+
+
+.ernest{
+    margin:0 auto;
+    background:white;
+    margin:5%;
+    margin-top:0;
+    padding:2%;
+    padding-bottom: 10%;
+    padding-top: 10%;    
+}
+.e_date{
+    width:100%;
+
+}
+.e_mass input[type="text"]{
+    float:left;
+width:100%;
+}
+.e_mass{
+    margin-bottom: 5%;
+}
+
+.e_bp input[type="text"]{
+    
+
+width:70%;
+}
+
+
+ }
+
+
+
+
+
+
 /*Ernest*/
 
 
