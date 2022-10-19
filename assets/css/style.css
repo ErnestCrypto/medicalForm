@@ -152,7 +152,7 @@ padding-left: 1% !important;
     border:none ;
     outline: none !important;
     border-bottom: 1px dotted;
-    width: 60%;
+    width: 60% !important;
 }
 
 .e_date_input:focus{
