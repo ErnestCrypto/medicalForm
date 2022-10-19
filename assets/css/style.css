@@ -169,14 +169,28 @@ padding-left: 1% !important;
     border-bottom: 1px dotted;
 }
 
+.ch1{
+    float:left;
+    margin:1% !important;
+    margin-left:0 !important;
+}
+
+
+.q38{
+margin:6%;
+margin-left:20%;
+}
+.q39{
+    margin:6%;
+    margin-left:1%;
+}
+
+
 
  @media screen and (max-width: 420px) {
     .col-sm-7{
         width: 100% !important;
     }
-
-
-
 
 .ernest{
     margin:0 auto;
@@ -206,6 +220,24 @@ width:70%;
 .e_yes{
     width:48.4% !important;
 }
+
+.ch1{
+    float:left;
+    margin:2% !important;
+   
+    
+}
+
+.q38{
+margin:6%;
+margin-left:20%;
+}
+
+
+
+
+
+
 }
 
 
