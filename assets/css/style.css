@@ -235,8 +235,11 @@ margin-left:20% !important;
 
 .e_date_input{
     width:100%;
+    
 }
-
+.e_other_input{
+    margin-top:30% ;
+}
 
 
 }
