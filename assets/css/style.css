@@ -10,6 +10,10 @@ font-weight: 500;
 font-size: 18px;
 }
 
+input:focus{
+border:none;
+outline:none;
+}
 
 
 .ernest{
@@ -306,26 +310,35 @@ input:focus{
 
 /* Toronto */
 
-body{
-    background:#F6F6F6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family:Times New Roman ;
-    }
-form{
-    width: 100%;
-    background: #fff;
-} 
-input{
-    width: auto;
-    
+.t_deate{
+    margin-top: 2%;
+}
+
+.t_list{
+    list-style-type: symbols("*");
+}
+.t_p{
+    font-weight:300 !important;
+    float:left;
+}
+
+.t_radio_container input[type="radio"]{
+margin: 5%;
 }
 
 
+.l_input{
+   margin-top: 5% !important;
 
+}
 
+.t_para{
+    font-size: 18px !important;
+}
 
+.t_marg{
+    margin-top: 3% !important;
+}
 
 
 
