@@ -1164,6 +1164,77 @@ CLINICAL EXAMINATION FORM</title>
     <!--Kelvin-->
     <section class=" ernest col-sm-7">
 
+        <p>II. &nbsp; <b>RESULTS OF LABORATORY INVESTIGATIONS</b></p>
+
+        <div class="col-xs-12 e_main_row e_main_col">
+            <div class="row e_main_row">
+                <div class="col-xs-6 text-center">
+                    <p class="col-xs-1 " style="float:left">Name:</p>
+                    <input type="text" name="name_input" class="e_date_input" />
+                </div>
+
+                <div class="col-xs-2 text-left e_main_row">
+                    <p>Sex</p>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <p class="col-xs-1">M</p>
+                    <input type="radio" name="sex_input" value="male" style="margin:0%;margin-left:0%;" />
+                </div>
+                <div class="col-xs-2 text-center">
+                    <p class="col-xs-1">No</p>
+                    <input type="radio" name="sex_input" value="female" style="margin:0%;margin-left:0%;" />
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="col-xs-12 e_main_row e_main_col">
+            <div class="row e_main_row">
+                <div class="col-xs-2 text-left e_main_row">
+                    <p>College &sol; School: </p>
+                </div>
+                <div class="col-xs-4 text-center ">
+                <input type="text" name="school_input" class="col-xs-12 e_other_input" />
+                </div>
+                <div class="col-xs-6 text-center">
+                    <p class="col-xs-1 " style="float:left">Clinician: </p>
+                    <input type="text" name="clinician_input" class="e_date_input" />
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 e_main_row e_main_col">
+                <div class="row e_main_row">
+
+                    <div class="col-xs-2 text-left e_main_row">
+                        <p>Reason for Exam: </p>
+                    </div>
+                    <div class="col-xs-2 text-center">
+                        <p class="col-xs-1">Pre-employment</p>
+                        <input type="radio" name="exam-reason" value="pre-employment" style="margin:0%;margin-left:0%;" />
+                    </div>
+                    <div class="col-xs-2 text-center">
+                        <p class="col-xs-1">Periodic</p>
+                        <input type="radio" name="exam-reason" value="periodic" style="margin:0%;margin-left:0%;" />
+                    </div>
+                    <div class="col-xs-2 text-center">
+                        <p class="col-xs-1">Exit</p>
+                        <input type="radio" name="exam-reason" value="exit" style="margin:0%;margin-left:0%;" />
+                    </div>
+
+
+                    <div class="col-xs-6 text-center" style="margin-left: 20%;">
+                        <p class="col-xs-1 " style="float:left">Sample Date:</p>
+                        <input type="text" name="sample_date_input" class="e_date_input" />
+                    </div>
+    
+                    
+                    
+                </div>
+            </div>
+
+
+<br> <br>
 
 <table class = "col-xs-12">
     <thead>
@@ -1403,6 +1474,101 @@ CLINICAL EXAMINATION FORM</title>
     </tr>
 
 </table>
+
+<table class="second_table">
+    <tr>
+        <td>*Stool r/e</td>
+
+    </tr>
+    <tr>
+        <td>*Stool r/e</td>
+    </tr>
+    <tr>
+        <td>*Stool r/e</td>
+    </tr>
+    <tr>
+        <td>*Stool r/e</td>
+    </tr>
+    
+</table>
+<br>
+<br>
+<div>
+    <p><b>Observations: </b></p>
+    <input type="text" name="Observations" id="obs">
+
+</div>
+<div>
+    <p><b>Recommendations: </b></p>
+    <input type="text" name="Observations" id="obs">
+
+</div>
+<div>
+    <p>Additional Comments</p>
+    <input type="text" name="Observations" id="obs">
+
+</div>
+
+<div class="col-xs-12 e_main_row e_main_col">
+    <div class="row  ">
+        <div class="col-xs-4 ">
+            <p class="t_p col-xs-10">FIT</p>
+            <input class="col-xs-2  l_input" type="radio" name="ADC" value="fit">
+        </div>
+        <div class="col-xs-8">
+            <div class="row">
+                <!---->
+                <div class="col-xs-6 ">
+                    <p class="t_p col-xs-10">UNFIT</p>
+                    <input class="col-xs-2  l_input" type="radio" name="ADC" value="unfit">
+                </div>
+                
+                <!---->
+                <!---->
+                <div class="col-xs-6 ">
+                    <p class="t_p col-xs-10">ADVISED TO SEE SPECIALIST </p>
+                    <input class="col-xs-2 l_input" type="radio" name="ADC" value="specialist">
+                </div>
+                <!---->
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="row e_main_row">
+    <div class="col-xs-2 text-left e_main_row">
+        <p>Name of Doctor</p>
+    </div>
+    <div class="col-xs-4 text-center ">
+    <input type="text" name="doctor_input" class="col-xs-12 e_other_input" />
+    </div>
+    <div class="col-xs-6 text-center">
+        <p class="col-xs-1 " style="float:left">Date </p>
+        <input type="text" name="DATE_input" class="e_date_input" />
+    </div>
+</div>
+
+
+<div class="row e_main_row">
+    <div class="col-xs-2 text-left e_main_row">
+        <p>Address</p>
+    </div>
+    <div class="col-xs-10 text-center ">
+    <input type="text" name="address_input" class="col-xs-12 e_other_input" />
+    </div>
+</div>
+<div class="row e_main_row">
+    <div class="col-xs-2 text-left e_main_row">
+        <p>Signature and stamp</p>
+    </div>
+    <div class="col-xs-10 text-center ">
+    <input type="text" name="signature_input" class="col-xs-12 e_other_input" />
+    </div>
+</div>
+
+
+
 <br><br>
 
 

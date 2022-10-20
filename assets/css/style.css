@@ -262,6 +262,7 @@ table, th, td {
     border-collapse: collapse;
    
   }
+  
 input{
     border-left: none;
     border-right: none;
@@ -299,6 +300,12 @@ input:focus{
     flex-direction: row;
     width: 900px;
 }
+.second_table{
+    padding: 10%;
+    width: 100%;
+    
+}
+
 
 
 
