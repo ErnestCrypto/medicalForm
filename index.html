@@ -1474,20 +1474,119 @@ CLINICAL EXAMINATION FORM</title>
     </tr>
 
 </table>
-
+<p>&nbsp;</p>
+<br>
 <table class="second_table">
-    <tr>
+    <tr class="k_table_2">
         <td>*Stool r/e</td>
-
+        <td>
+            <label for="normal">No Pathology Detected</label>
+            <input type="radio" name="stool-re" value="no-pathology">
+        </td>
+        <td colspan="2">
+            <label for="normal">Abnormal</label>
+            <input type="radio" name="stool-re" value="abnormal">
+        </td>
+             
     </tr>
-    <tr>
-        <td>*Stool r/e</td>
+    <tr class="k_table_2">
+        <td >*Stool for Occult blood</td>
+        <td>
+            <label for="normal">Negative</label>
+            <input type="radio" name="stool_blood" value="negative">
+        </td>
+        <td colspan="2">
+            <label for="normal">Positive</label>
+            <input type="radio" name="stool_blood" value="positive">
+        </td>
+             
     </tr>
-    <tr>
-        <td>*Stool r/e</td>
+    <tr class="k_table_2">
+        <td>*Uric Acid</td>
+        <td>
+            <label for="normal">Normal</label>
+            <input type="radio" name="uric_acid" value="normal">
+        </td>
+        <td>
+            <label for="normal">Elevated</label>
+            <input type="radio" name="uric_acid" value="elevated">
+        </td>
+        <td>
+            <input type="text" name="uric_acid" id="uric_acid-text">
+        </td>
+             
     </tr>
-    <tr>
-        <td>*Stool r/e</td>
+    <tr class="k_table_2">
+        <td>*PSA</td>
+        <td>
+            <label for="normal">Normal</label>
+            <input type="radio" name="psa" value="normal">
+        </td>
+        <td>
+            <label for="normal">Elevated</label>
+            <input type="radio" name="psa" value="elevated">
+        </td>
+        <td>
+            <input type="text" name="psa" id="psa-text">
+        </td>
+             
+    </tr>
+    <tr class="k_table_2">
+        <td>*Pap Smear /VIAA</td>
+        <td>
+            <label for="normal">Requested</label>
+            <input type="radio" name="pap-smear" value="normal">
+        </td>
+        <td>
+            <label for="normal">No Pathology Detected</label>
+            <input type="radio" name="pap-smear" value="no_pathology">
+        </td>
+        <td>
+            <label for="normal">Abnormal</label>
+            <input type="radio" name="pap-smear" value="abnormal">
+        </td>
+             
+    </tr>
+    <tr class="k_table_2">
+        <td>*Mammogram</td>
+        <td>
+            <label for="normal">Requested</label>
+            <input type="radio" name="mammogram" value="requested">
+        </td>
+        <td>
+            <label for="normal">No Pathology Detected</label>
+            <input type="radio" name="mammogram" value="no_pathology">
+        </td>
+        <td>
+            <label for="normal">Abnormal</label>
+            <input type="radio" name="mammogram" value="abnormal">
+        </td>
+             
+    </tr>
+    <tr class="k_table_2">
+        <td>*Stool c/s(catering staff)</td>
+        <td>
+            <label for="normal">No Bacteria Growth</label>
+            <input type="radio" name="stool_catering_staff" value="no-bacteria">
+        </td>
+        <td  colspan="2">
+            <label for="normal">Organism cultured</label>
+            <input type="text" name="stool_catering_staff" id="org-cultured">
+        </td>
+             
+    </tr>
+    <tr class="k_table_2">
+        <td>*ECG</td>
+        <td>
+            <label for="normal">Requested Comment</label>
+            <input type="radio" name="ecg" value="requested-comment">
+        </td>
+        <td  colspan="2">
+            <label for="normal">Normal</label>
+            <input type="radio" name="ecg" value="normal"><br>     
+            
+        </td>
+    
     </tr>
     
 </table>
